@@ -9,6 +9,10 @@
     <script src="script.js"></script>
 </head>
 <body>
+    <form>
+        <input id="searchValue" type="text" placeholder="Search..." required>
+        <input type="button" value="Search" class="button" onclick="search()">
+    </form>
     <table class="table">
         <thead>
             <tr>
@@ -28,6 +32,9 @@
             </tr>
         </thead>
         <tbody id="content">        
+        </tbody>
+
+        <tbody id="content-search">        
         </tbody>
     </table>
 </body>
