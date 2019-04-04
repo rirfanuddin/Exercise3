@@ -60,7 +60,7 @@ function search(){
   mainContent.style.display='none';
 
   var mainContent = document.getElementById("content-search");
-  mainContent.style.display='inline-block';
+  mainContent.style.display='table-header-group';
 
   let query = document.getElementById("searchValue").value
   
