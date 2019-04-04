@@ -22,7 +22,7 @@ form {
     width:500px;
     margin:50px auto;
 }
-#search {
+#searchValue {
     padding:8px 15px;
     background:rgba(50, 50, 50, 0.2);
     border:0px solid #dbdbdb;
@@ -38,4 +38,9 @@ form {
 .button:hover  {
     background-color:#fafafa;
     color:#207cca;
+}
+
+.notes {
+    color: red;
+    font-size: 12px;
 }
